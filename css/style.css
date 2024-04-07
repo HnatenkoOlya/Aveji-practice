@@ -1,5 +1,6 @@
 body { 
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     color: black; 
     background-color: var( --brand-color);
 }
@@ -22,10 +23,10 @@ a {
 }
 .header-logo {
 font-family: Roboto, sans-serif;
-font-size: 18px;
+font-size: 30px;
 font-weight: 800;
-line-height: 1,17;
-letter-spacing: -0.03em;
+line-height: 1.16;
+letter-spacing: 0.03em;
 text-align: left;
 text-transform: uppercase;
 }
@@ -37,7 +38,7 @@ text-transform: uppercase;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
 text-align: left;
 color: black; 
 }
@@ -83,4 +84,115 @@ letter-spacing: 0.04em;
 text-align: left;
 text-transform: uppercase;
 text-decoration: underline;
+}
+.about {
+}
+.about-title {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.about-list {
+}
+.about-item {
+}
+.about-item-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.about-list-advan {
+}
+.about-item-advan {
+}
+.about-item-title {
+font-size: 36px;
+font-weight: 500;
+text-align: left;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.about-item-text-advan {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: black; 
+}
+.steps {
+}
+.steps-list {
+}
+.steps-item {
+}
+.projekt {
+}
+.projekt-list {
+}
+.projekt-item {
+}
+.reviews {
+}
+.reviews-title {
+font-size: 48px;
+font-weight: 500;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.reviews-list {
+}
+.reviews-item {
+}
+.reviews-img {
+}
+.reviews-name {
+font-size: 18px;
+font-weight: 500;
+line-height: 1.33;
+letter-spacing: 0.02em;
+text-align: center;
+  
+}
+.reviews-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.footer {
+}
+.footer-text {
+font-size: 18px;
+font-weight: 400;
+line-height: 1.33;
+letter-spacing: 0.02em;
+text-align: left;
+color: black; 
+text-transform: uppercase;
+}
+.footer-tex {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: black; 
+}
+.footer-link {
+font-size: 18px;
+font-weight: 400;
+line-height: 1.33;
+letter-spacing: 0.02em;
+text-align: left;
+color: black; 
+text-transform: uppercase;
 }
