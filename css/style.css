@@ -1,23 +1,40 @@
 body { 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: black; 
-    background-color: var( --brand-color);
-}
-a {
-    text-decoration: none;
-    color: black; 
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: black; 
+  background-color: var( --brand-color);
 }
 :root {
-    --brand-color:#FFFFFF;
-    --link-color: #2E2F42;
-    --link-color-add: black;
+  --brand-color:#FFFFFF;
+  --link-color: #2E2F42;
+  --link-color-add: black;
+  }
+  p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
   ul,ol {
-    list-style-type: none;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  a {
+    text-decoration: none;
+    color: black; 
+  }
+  .container {
+    width: 100%;
+    min-width: 1346px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: solid 2px red;
   }
   /*Header styles*/
   .header {
+    padding-top: 24px;
+    padding-bottom: 30px;
 }
 .header-nav {
 }
@@ -50,13 +67,14 @@ color: black;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
 text-align: left;
 color: black; 
 }
 .nav-adress-link {
 }
 .hero {
+  padding-bottom: 80px;
 }
 .hero-title {
 font-family: Roboto, sans-serif;
@@ -86,6 +104,9 @@ text-transform: uppercase;
 text-decoration: underline;
 }
 .about {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: flex-end;
 }
 .about-title {
   font-size: 48px;
@@ -95,6 +116,7 @@ text-decoration: underline;
   letter-spacing: 0.02em;
 }
 .about-list {
+  text-align: right;
 }
 .about-item {
 }
@@ -126,6 +148,7 @@ text-align: left;
 color: black; 
 }
 .steps {
+  padding-bottom: 80px;
 }
 .steps-list {
 }
@@ -138,6 +161,7 @@ color: black;
 .projekt-item {
 }
 .reviews {
+  padding-bottom: 80px;
 }
 .reviews-title {
 font-size: 48px;
@@ -145,8 +169,10 @@ font-weight: 500;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: left;
+padding-bottom: 15px;
 }
 .reviews-list {
+
 }
 .reviews-item {
 }
