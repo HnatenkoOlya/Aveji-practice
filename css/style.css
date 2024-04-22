@@ -126,6 +126,11 @@ letter-spacing: 0.04em;
 text-align: left;
 text-transform: uppercase;
 text-decoration: underline;
+background-color: transparent;
+border: none;
+}
+.hero-img {
+
 }
 .about {
   padding-bottom: 80px;
@@ -150,7 +155,6 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
-
 }
 .about-list-advan {
 }
@@ -175,15 +179,75 @@ color: black;
 .steps {
   padding-bottom: 80px;
 }
+.steps-container {
+  display: flex;
+  align-items: center;
+}
+.steps-title {
+font-size: 48px;
+font-weight: 500;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: left;
+margin-bottom: 33px;
+margin-right: 303px;
+}
+.steps-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+max-width: 325px;
+}
+.container-list {
+  display: flex;
+  max-width: 755px;
+  margin-left: auto;
+}
 .steps-list {
+text-align: left;
 }
 .steps-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: .1rem solid black;
+}
+.steps-item-div {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.steps-item-title {
+font-size: 36px;
+font-weight: 500;
+text-align: left;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-right: 96px;
+max-width: 328px;
+}
+.steps-item-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+max-width: 329px;
+padding-top: 36px;
+padding-bottom: 24px;
 }
 .projekt {
   padding-bottom: 120px;
 }
 .projekt-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .projekt-item {
@@ -230,7 +294,18 @@ letter-spacing: 0.02em;
 text-align: center;
 
 }
+.form-sec {
+  padding-bottom: 120px;
+}
 .footer {
+  padding-bottom: 15px;
+}
+.footer-div {
+  display: flex;
+  align-items: center;
+}
+.footer-div-p {
+  margin-right: 256px;
 }
 .footer-text {
 font-size: 18px;
@@ -241,6 +316,9 @@ text-align: left;
 color: black; 
 text-transform: uppercase;
 }
+.footer-p {
+  margin-right: 230px;
+}
 .footer-tex {
 font-size: 16px;
 font-weight: 400;
@@ -248,6 +326,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 color: black; 
+}
+.social-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto;
+}
+.social-list-footer {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .footer-link {
 font-size: 18px;
@@ -257,4 +346,5 @@ letter-spacing: 0.02em;
 text-align: left;
 color: black; 
 text-transform: uppercase;
+
 }
