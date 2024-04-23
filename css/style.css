@@ -95,10 +95,16 @@ color: black;
   padding-bottom: 80px;
 }
 .hero-container {
- 
+  display: flex;
+  justify-content: space-between;
 }
 .hero-h-p {
-  display: flex;
+  /*display: flex;
+  max-width: 794px;
+  align-items: center;*/
+  flex-grow: 1;
+  margin-right: 20px;
+  max-width: 794px;
 }
 .hero-title {
 font-family: Roboto, sans-serif;
@@ -108,6 +114,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: left;
 text-transform: uppercase;
+margin-bottom: 40px;
 }
 .hero-text {
 font-family: Roboto, sans-serif;
@@ -116,6 +123,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
+max-width: 445px;
 }
 .hero-btn {
 font-family: Roboto, sans-serif;
@@ -128,14 +136,26 @@ text-transform: uppercase;
 text-decoration: underline;
 background-color: transparent;
 border: none;
+align-self: center;
+}
+.hero-btn:hover {
+  color: wheat;
+  cursor: pointer;
+}
+.hero-img-div {
+  width: 100%;
 }
 .hero-img {
-
+  margin-right: 440px;
 }
 .about {
   padding-bottom: 80px;
   display: flex;
   justify-content: flex-end;
+}
+.about-div {
+  display: flex;
+  margin-bottom: 35px;
 }
 .about-title {
   font-size: 48px;
@@ -143,11 +163,15 @@ border: none;
   text-align: left;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  max-width: 562px;
+  margin-right: 140px;
 }
 .about-list {
   text-align: right;
+  max-width: 446px;
 }
 .about-item {
+ 
 }
 .about-item-text {
 font-size: 16px;
@@ -155,6 +179,12 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
+padding-bottom: 20px;
+}
+.about-list-div {
+  display: flex;
+  max-width: 755px;
+  margin-left: auto;
 }
 .about-list-advan {
 }
@@ -166,7 +196,6 @@ font-weight: 500;
 text-align: left;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 33px;
 }
 .about-item-text-advan {
 font-size: 16px;
@@ -175,6 +204,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 color: black; 
+margin-top: 0;
+padding-bottom: 30px;
 }
 .steps {
   padding-bottom: 80px;
