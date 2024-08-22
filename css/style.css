@@ -307,8 +307,26 @@ padding-bottom: 24px;
 .projekt-item {
   width: calc((100%-40px)/3);
 }
+.projekt-over {
+  position: relative;
+  overflow: hidden;
+}
+.projekt-item-imgw {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(161deg, rgba 253, 253, 253, 250);
+  backdrop-filter: blur (7.5px);
+  padding-left: 80px;
+  align-items: center;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}
+.projekt-item:hover .projekt-item-imgw {
+  transform: translateY(0);
+}
 .reviews {
   padding-bottom: 120px;
+  
 }
 .reviews-title {
 font-size: 48px;
