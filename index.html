@@ -50,8 +50,8 @@
         Ми можемо зробити будь-які меблі для вашого проєкту та здійснити будь-який ваш задум.
         </p>
         </div>
-        <button type="button" class="hero-btn">
-        Замовити проєкт
+        <button type="button" class="hero-btn" data-modal-open>
+        Залишити відгук
         </button>
         </div>
         <div class="hero-img-div">
@@ -243,5 +243,11 @@
         </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>X</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
