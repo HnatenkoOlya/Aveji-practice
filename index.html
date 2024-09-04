@@ -14,7 +14,9 @@
     <header class="header">
      <div class="container header-container">
        <nav class="header-nav">
-        <a href="" class="header-logo">Aveji<img src="./images/logo.svg" alt="Logo Aveji" width="40" height="40" class="img-logo"/></a>
+        <a href="" class="header-logo"> Aveji
+            <svg class="logo-svg"  width="40" height="40">
+            <use href="./images/icons.svg#icon-logo"></use></svg></a>
          <ul class="header-nav-list">
             <li class="header-nav-item"> 
                 <a href="" class="header-nav-link">Про нас</a>
@@ -198,17 +200,23 @@
         <h2 class="reviews-title">Відгуки</h2>
         <ul class="reviews-list">
             <li class="reviews-item">
-                <img class="reviews-img" src="./images/icon1.svg" alt="Лапки" width="40" height="40"/>
+                <svg class="reviews-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
                 <h3 class="reviews-name">Ігор Антоненко</h3>
                 <p class="reviews-text">Звернувся до Aveji за рекомендацією. Команда одразу зрозуміла, який дизайн я хочу. Надали кілька варіантів і протягом тижня зробили начерки. Підсумок сподобався, все на найвищому рівні.</p>
             </li>
             <li class="reviews-item">
-                <img class="reviews-img" src="./images/icon1.svg" alt="Лапки" width="40" height="40"/>
+                <svg class="reviews-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
                 <h3 class="reviews-name">Ольга Іваненко</h3>
                 <p class="reviews-text">Після пари замовлень у компанії Aveji переконалася, що за меблями тепер тільки до них. Абсолютно будь-які рішення, в будь-яких розмірах і форм, те що потрібно!</p>
             </li>
             <li class="reviews-item">
-                <img class="reviews-img" src="./images/icon1.svg" alt="Лапки" width="40" height="40"/>
+                <svg class="reviews-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
                 <h3 class="reviews-name">Аркадій Макаренко</h3>
                 <p class="reviews-text">Aveji - справжні професіонали своєї справи. Швидко зрозуміли мою задумку, зробили дизайн, погодили і виготовили меблі. А потім ще й безкоштовно все зібрали на місці. Велике дякую!</p>
             </li>
@@ -245,7 +253,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>X</button>
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="modal-close-svg" width="10" height="10">
+                    <use href="./images/icons.svg#icon-close-1"></use>
+                </svg>
+            </button>
         </div>
     </div>
     <script src="./js/modal.js"></script>
