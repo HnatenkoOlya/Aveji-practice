@@ -251,8 +251,8 @@
         </div>
         </div>
     </footer>
-    <div class="backdrop " data-modal>
-        <div class="modal">
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal" >
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="modal-close-svg" width="10" height="10">
                     <use href="./images/icons.svg#icon-close-1"></use>
@@ -269,6 +269,16 @@
             <label class="modal-label" ><span>Коментарі та відгуки*</span>
             <textarea name="comment" class="modal-comment" placeholder="Коментарі та відгуки" required></textarea>
             </label>
+            <div class="modal-check"> 
+            <input id="input-check" type="checkbox" class="user-check" name="user-check" value="true" visually-hidden />
+            <label for="input-check" class="label-check">
+                <span>
+                    <svg class="" width="13" height="13">
+                        <use href="./images/icons.svg#icon-icons8--1"></use>
+                    </svg>
+                </span>
+                I accept the terms and conditions of the <a href="" class="modal-link">Privacy Policy</a></label>
+            </div>
             <button type="submit" class="modal-btn">Відправити</button>
            </form>
         </div>
