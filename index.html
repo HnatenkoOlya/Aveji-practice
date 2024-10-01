@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="furniture store"/>
   <title>Aveji</title>
+  <link rel="icon" href="./images/logo.png" type="image/png" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -224,9 +225,27 @@
      </div>
     </section>
     <section class="form-sec">
-        <div class="container">
+        <div class="form-img container">
+        <div class="">
         <h2 hidden>Форма для замовлення</h2>
         <img src="./images/aveji-img7.jpg" alt="Вітальня" width="562" height="566" />
+        </div>
+        <div class="user-form">
+        <h2 class="reviews-title">Хочете зробити замовлення?</h2>
+        <p class="hero-text">Залиште заявку, і ми Вам передзвонимо</p>
+        <form class="form-user">
+            <label aria-label="form user name">
+            <input type="text" name="user-name" class="user-form-fid" placeholder="Ім'я" minlength="3" required/>
+            </label>
+            <label aria-label="form user email">
+            <input type="email" name="user-email" class="user-form-fid" placeholder="E-mail" minlength="3" required/>
+            </label>
+            <label aria-label="form user phone">
+            <input type="tel" name="user-phone" class="user-form-fid" placeholder="Телефон"/>
+            </label>
+            <button type="submit" class="form-user-btn"> Відправити заявку</button>
+        </form>
+        </div>
         </div>
     </section>
     </main>
